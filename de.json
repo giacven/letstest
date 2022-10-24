@@ -1,0 +1,21 @@
+{
+  "app.cart": "In den Warenkorb legen",
+  "app.describe": "Der beste Ort, um wunderbare Möbel zu entdecken, die Ihr Zuhause verschönern",
+  "app.get_started": "Erste Schritte",
+  "app.greeting": "Hallo!",
+  "app.header": "IHR ZUHAUSE SCHÖN MACHEN",
+  "app.product.description": "Dieser Ständer ist aus Naturholz gefertigt. Das Design ist sehr einfach und minimalistisch. Dies ist wirklich eines der besten Stücke für jedes Zuhause. Erhältlich in 3 verschiedenen Farben, können Sie leicht die beste Übereinstimmung für Ihr Zuhause wählen.",
+  "app.product.title": "Minimaler Stand",
+  "app.rating_value": "4.5",
+  "app.reviews": "50 Bewertungen",
+  "app.sign_in": "ANMELDEN",
+  "app.signin.email": "E-Mail",
+  "app.signup": "ANMELDEN",
+  "app.signup.password": "Passwort",
+  "app.signup.password_forgot": "Vergessenes Passwort",
+  "app.welcome_back": "Willkommen zurück {client}",
+  "body": "quia <b>et suscipit</b>\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+  "id": "1",
+  "title": "sunt aut facere repellat provident occaecati {numero} excepturi optio reprehenderit",
+  "userId": "1"
+}
