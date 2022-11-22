@@ -1,0 +1,21 @@
+{
+  "app.cart": "Añadir a la cesta",
+  "app.describe": "El mejor lugar para descubrir maravillosos muebles para embellecer su hogar",
+  "app.get_started": "Empieza",
+  "app.greeting": "¡Hola!",
+  "app.header": "HAGA QUE SU CASA SEA HERMOSA",
+  "app.product.description": "Este soporte está hecho de madera natural. El diseño es muy sencillo y minimalista. Es realmente una de las mejores piezas para cualquier hogar. Disponible en 3 colores diferentes, puede seleccionar fácilmente la mejor combinación para su hogar.",
+  "app.product.title": "Stand mínimo",
+  "app.rating_value": "4.5",
+  "app.reviews": "50 comentarios",
+  "app.sign_in": "INSCRIBIRSE",
+  "app.signin.email": "Correo electrónico",
+  "app.signup": "INSCRIPCIÓN",
+  "app.signup.password": "Contraseña",
+  "app.signup.password_forgot": "Olvidé mi contraseña",
+  "app.welcome_back": "Bienvenido de nuevo {client}",
+  "body": "quia <b>et suscipit</b>\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+  "id": "1",
+  "title": "sunt aut facere repellat provident occaecati {numero} excepturi optio reprehenderit",
+  "userId": "1"
+}
