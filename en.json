@@ -12,6 +12,6 @@
   "app.signin.email": "Email",
   "app.signup": "SIGN UP",
   "app.signup.password": "Password",
-  "app.signup.password_forgot": "Forgot Password",
-  "app.header": "MAKE YOUR HOME BEAUTIFUL"
+  "app.signup.password_forgot": "Forgot Your Password",
+  "app.header": "MAKE YOUR HOME VERY BEAUTIFUL"
 }
