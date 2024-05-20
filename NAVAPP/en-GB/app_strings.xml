@@ -1,0 +1,64 @@
+<!--
+  ~ Copyright (C) 2020 TomTom NV. All rights reserved.
+  ~
+  ~ This software is the proprietary copyright of TomTom NV and its subsidiaries and may be
+  ~ used for internal evaluation purposes or commercial use strictly subject to separate
+  ~ license agreement between you and TomTom NV. If you are the licensee, you are only permitted
+  ~ to use this software in accordance with the terms of your license agreement. If you are
+  ~ not the licensee, you are not authorized to use this software in any manner and should
+  ~ immediately return or destroy it.
+  -->
+
+<resources xmlns:tomtom ="http://www.tomtom.com/metadata">
+
+
+    <string name="maturity_label_alpha" translatable="true" tomtom:desc="App release level. Alpha level means the app may be unstable and is not yet finished">Alpha</string>
+    <string name="maturity_label_beta" translatable="true" tomtom:desc="App release level. Beta level means the app is technically ready but there may be more known/unknown bugs">Beta</string>
+
+    <string name="frw_title_waiting_for_permissions" translatable="true" tomtom:desc="Informs the user that the app is waiting until permission is granted">Waiting for permissions</string>
+    <string name="frw_title_waiting_for_position" translatable="true" tomtom:desc="Informs the user that the app is waiting for geographical position">Waiting for position</string>
+    <string name="frw_title_data_usage" translatable="true" tomtom:desc="Data usage title">Offline maps</string>
+    <string name="frw_title_downloading" translatable="true" tomtom:desc="Shown while downloading geographical regions">Downloading regions</string>
+    <string name="frw_title_failed" translatable="true" tomtom:desc="Shown when regions download failed">Failed</string>
+    <string name="frw_title_skip" translatable="true" tomtom:desc="Info to user about geographical regions">Skip installing regions</string>
+
+    <string name="frw_desc_waiting_for_permissions" translatable="true" tomtom:desc="Info for user">
+        The location permission is required for the application to function.\n
+        Please grant the location permission.
+    </string>
+    <string name="frw_desc_waiting_for_position" translatable="true" tomtom:desc="Info for user">Determining your location…\nIf it takes long and you're indoors, change location to improve GPS reception</string>
+    <string name="frw_desc_data_usage" translatable="true" tomtom:desc="Info for user">
+        Some offline map content relevant to your current location is going to be installed.\n
+        This might use up to 1 GB, depending on your surroundings.\n
+        \n
+        <b>Mobile data costs</b>\n
+        Please make sure your device has wifi turned on for this setup to avoid mobile data expenses.\n
+        \n
+        Tap Continue to start installing relevant map content.
+    </string>
+    <string name="frw_desc_failed" translatable="true" tomtom:desc="Info for user">
+        An error occurred while downloading and installing map content.\n
+        Make sure this device has a working internet connection.\n
+        \n
+        Error: %1$s\n
+        \n
+        Try to install regions using manual map management (switch on Enable Map Management setting first).</string>
+    <string name="frw_desc_skipped" translatable="true" tomtom:desc="Info for user">
+        Without installing map-regions, your onboard map will be empty.
+    </string>
+    <string name="frw_desc_downloading_determining" translatable="true" tomtom:desc="Shown when finding geographical regions">Finding regions near you…</string>
+    <string name="frw_desc_downloading_progress" translatable="true" tomtom:desc="Info regarding geographical regions">Downloading region %1$d out of %2$d (%3$d%%)</string>
+
+    <string name="frw_button_open_settings" translatable="true" tomtom:desc="Open setting prompt on the button">Open Settings</string>
+    <string name="frw_button_continue" translatable="true" tomtom:desc="Continue prompt on the button">Continue</string>
+    <string name="frw_button_skip" translatable="true" tomtom:desc="Skip prompt on the button">Skip</string>
+    <string name="frw_button_cancel" translatable="true" tomtom:desc="Cancel prompt on the button">Cancel</string>
+    <string name="frw_network_connectivity_message" translatable="true" tomtom:desc="Connectivity status message">
+        Internet connection is not available. Make sure this device has a working internet connection.
+    </string>
+    <string name="user_consent_title_ask_for_consent" translatable="true" tomtom:desc="Title of the privacy consent screen">Your Privacy Is Our Priority</string>
+    <string name="user_consent_button_accept_consent" translatable="true" tomtom:desc="Accept prompt button">Accept</string>
+    <string name="user_consent_button_deny_consent" translatable="true" tomtom:desc="Deny prompt button">Deny</string>
+    <string name="user_consent_desc_ask_for_consent" translatable="true" tomtom:desc="Consent for collecting data">We need to know your location to show traffic information on your route.\nBy tapping 'Accept' you give consent to share your location, journey and usage data to improve this app.</string>
+
+</resources>
