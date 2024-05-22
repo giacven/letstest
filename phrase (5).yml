@@ -1,19 +1,27 @@
 phrase:
-  project_id: 836889313d41a2454c922501ab95593b
+  project_id: 5dc64e210b821d1e7c995913f68a646c
 
   push:
     sources:
-      - file: ./<locale_name>.json
+
+    #NAVAPP
+      - file: ./letstest/NAVAPP/en-GB/*.xml
         params:
-          file_format: simple_json
-          locale_id: en
+          file_format: xml
+          locale_id: en-GB
           update_translations: true
           autotranslate: true
+    #amiGO
+       - file: ./letstest/amiGO/en-GB/*.xml
+        params:
+         file_format: xml
+         locale_id: en-GB
+         update_translations: true
+         autotranslate: true
 
   pull:
     targets:
-      - file: ./<locale_name>.json
+      - file: ./letstest/NAVAPP/de/*.xml
         params:
-          file_format: simple_json
-          locale_id: de,it,fr,es,da,nl
+          file_format: xml
 
