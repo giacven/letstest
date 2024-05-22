@@ -15,5 +15,6 @@ phrase:
       - file: ./letstest/NAVAPP/de/*.xml
         params:
           file_format: xml
+          locale_id: de
           
 
