@@ -14,5 +14,7 @@ phrase:
     targets:
       - file: ./NAVAPP/de/<tag>.xml
         params:
+          locale_id: de
           file_format: xml
+          tags: de
 
