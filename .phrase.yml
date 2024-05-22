@@ -1,6 +1,8 @@
 phrase: 
-project_id: 1b97950ab77ee8165fd7309196217136
-    
+auth_token: 011dde75ce6abe24608e038b1aad6a02123d248ffa985e29435a577e1d002115
+
+  #NAVAPP  
+  project_id: 1b97950ab77ee8165fd7309196217136
   push:
     sources:
     
@@ -19,3 +21,22 @@ project_id: 1b97950ab77ee8165fd7309196217136
           file_format: xml
           tags: de
 
+  #amiGO
+    project_id: 5dc64e210b821d1e7c995913f68a646c
+    push:
+    sources:
+    
+      - file: ./amiGO/en-GB/<tag>.xml
+        params:
+          file_format: xml
+          locale_id: en-GB
+          update_translations: true
+          autotranslate: true
+
+  pull:
+    targets:
+      - file: ./amiGO/de/<tag>.xml
+        params:
+          locale_id: de
+          file_format: xml
+          tags: de
