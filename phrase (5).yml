@@ -1,11 +1,12 @@
 phrase:
-  project_id: 5dc64e210b821d1e7c995913f68a646c
+  access_token: 9cf40b47512f97de8ca24a64d42a52f7f2ca3f3bcf7a4ced40f1786be4eb5e59
 
   push:
     sources:
 
     #NAVAPP
       - file: ./letstest/NAVAPP/en-GB/*.xml
+        project_id: 1b97950ab77ee8165fd7309196217136
         params:
           file_format: xml
           locale_id: en-GB
@@ -13,6 +14,7 @@ phrase:
           autotranslate: true
     #amiGO
        - file: ./letstest/amiGO/en-GB/*.xml
+         project_id: 5dc64e210b821d1e7c995913f68a646c
         params:
          file_format: xml
          locale_id: en-GB
