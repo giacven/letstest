@@ -1,8 +1,10 @@
 phrase:
-  project_id: 1b97950ab77ee8165fd7309196217136
+  
   
   push:
     sources:
+    #NAVAPP
+    project_id: 1b97950ab77ee8165fd7309196217136
       - file: ./NAVAPP/en-GB/<tag>.xml
         params:
           file_format: xml
