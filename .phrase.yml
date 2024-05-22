@@ -1,10 +1,9 @@
 phrase: 
-project_id: 1b97950ab77ee8165fd7309196217136
+  project_id: 1b97950ab77ee8165fd7309196217136
 
- push:
+  push:
     sources:
-    
-  #NAVAPP    
+      # NAVAPP    
       - file: ./NAVAPP/en-GB/<tag>.xml
         params:
           file_format: xml
@@ -12,26 +11,29 @@ project_id: 1b97950ab77ee8165fd7309196217136
           update_translations: true
           autotranslate: true
 
-  #amiGO
+      # amiGO
       - file: ./AmiGO/en-GB/<tag>.xml
         params:
           file_format: xml
           locale_id: en-GB
           update_translations: true
           autotranslate: true
-
   
   pull:
     targets:
-    
-    #NAVAPP
+      # NAVAPP
       - file: ./NAVAPP/de/<tag>.xml
         params:
           locale_id: de
           file_format: xml
           tags: de_navapp
 
-     #amiGO
+      # amiGO
+      - file: ./AmiGO/de/<tag>.xml
+        params:
+          locale_id: de
+          file_format: xml
+          tags: de.amigo
       - file: ./AmiGO/de/<tag>.xml
         params:
           locale_id: de
