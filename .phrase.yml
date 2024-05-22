@@ -3,7 +3,7 @@ phrase:
   
   push:
     sources:
-      - file: ./letstest/NAVAPP/en-GB/**.xml
+      - file: ./letstest/NAVAPP/en-GB/<tags>.xml
         params:
           file_format: xml
           locale_id: en-GB
