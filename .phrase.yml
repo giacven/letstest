@@ -1,9 +1,8 @@
 phrase: 
 project_id: 1b97950ab77ee8165fd7309196217136
 
-  #NAVAPP  
-  
-  push:
+  #NAVAPP   
+ push:
     sources:
     
       - file: ./NAVAPP/en-GB/<tag>.xml
@@ -13,9 +12,7 @@ project_id: 1b97950ab77ee8165fd7309196217136
           update_translations: true
           autotranslate: true
 
-  
   #amiGO
-
     push:
     sources:
     
