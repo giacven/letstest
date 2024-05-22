@@ -3,7 +3,7 @@ phrase:
 
   push:
     sources:
-      - file: ./letstest/NAVAPP/*.xml
+      - file: ./letstest/NAVAPP/en-GB/*.xml
         params:
           file_format: xml
           locale_id: en-GB
@@ -12,7 +12,7 @@ phrase:
 
   pull:
     targets:
-      - file: ./letstest/NAVAPP/*.xml
+      - file: ./letstest/NAVAPP/de/*.xml
         params:
           file_format: xml
           
