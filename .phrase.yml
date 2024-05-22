@@ -1,8 +1,8 @@
 phrase: 
-auth_token: 011dde75ce6abe24608e038b1aad6a02123d248ffa985e29435a577e1d002115
+project_id: 1b97950ab77ee8165fd7309196217136
 
   #NAVAPP  
-  project_id: 1b97950ab77ee8165fd7309196217136
+  
   push:
     sources:
     
@@ -19,10 +19,10 @@ auth_token: 011dde75ce6abe24608e038b1aad6a02123d248ffa985e29435a577e1d002115
         params:
           locale_id: de
           file_format: xml
-          tags: de
+          tags: de_navapp
 
   #amiGO
-    project_id: 5dc64e210b821d1e7c995913f68a646c
+
     push:
     sources:
     
@@ -39,4 +39,4 @@ auth_token: 011dde75ce6abe24608e038b1aad6a02123d248ffa985e29435a577e1d002115
         params:
           locale_id: de
           file_format: xml
-          tags: de
+          tags: de.amigo
