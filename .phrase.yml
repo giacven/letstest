@@ -24,6 +24,7 @@ phrase:
   pull:
     targets:
       - file: ./letstest/NAVAPP/de/*.xml
+        project_id: 1b97950ab77ee8165fd7309196217136
         params:
           file_format: xml
 
