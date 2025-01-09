@@ -1,0 +1,21 @@
+{
+    "app.about": "Di",
+    "app.about.description": "Maggiori informazioni su di noi!",
+    "app.about.paragraph": "Cosa facciamo",
+    "app.about.subtitle": "Scopri di più su di noi",
+    "app.about.title": "Chi siamo",
+    "app.description": "Un'app molto semplice a scopo dimostrativo.",
+    "app.files": "{count, plural, one { Hai {count} file } other { Hai {count} file }}",
+    "app.footer.cta": "Dai un'occhiata a noi su",
+    "app.landing_page": "Pagina di destinazione",
+    "app.landing_page.description": "Benvenuti a questa demo app. Fermatevi un po' e traducete.",
+    "app.landing_page.subtitle": "Questa è una demo per {client}.",
+    "app.landing_page.title": "La mia <b> App Demo <\/b>",
+    "app.langs.english": "Inglese",
+    "app.services": "Servizi",
+    "app.services.description": "Scopri questi servizi",
+    "app.services.title": "Servizi qui",
+    "app.subtitle": "Applicazione demo i18n",
+    "app.subtitle_1": "mettimi alla prova",
+    "app.title": "Applicazione dimostrativa"
+}
